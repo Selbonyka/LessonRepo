@@ -1,5 +1,5 @@
-console.log("Write each number you want to sum up on a new line")
-let input_list = [1, 2]
+console.log("The sum of 1 and 2 is:")
+let variable_list = [1, 2]
 
 function sum(args){
     let summed = 0
@@ -7,4 +7,4 @@ function sum(args){
         summed = summed + x}
     return summed;}
 
-console.log(sum(input_list))
+console.log(sum(variable_list))
